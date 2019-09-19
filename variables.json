@@ -1,0 +1,15 @@
+{
+	"title": "Les Montées du plaisir",
+	"description": "En délaissant les plus fameux sommets de l’Arc alpin helvétique, «L’illustré» est parti à la découverte d’éminences, d’arêtes, de pointes et de pitons, certes plus modestes, pouvant être facilement gravis en une petite journée de randonnée.",
+	"authors": "François Busson, César Greppin",
+	"imgSocial": "social.jpg",   
+
+	"navBarStyle": "normal",
+	"navBarOffset": "0",
+	"navBarLocked": false,
+
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.illustre.ch/"
+	}
+}

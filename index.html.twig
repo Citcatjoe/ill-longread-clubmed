@@ -1,0 +1,1098 @@
+{% use '_blocks.html.twig' %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        {{ block('head_brand') }} 
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/loader.css" />
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,400italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+        <script>var players = [];</script>
+    </head>
+    <body style="padding-top: {{ navBarOffset }};">
+        {{ block('bar_brand') }}
+        <div class="fixed-map-wrapper">
+            
+        </div>
+        <!-- <div class="overlay">
+            <img class="logo-brand" src="img/logo-illustre-pos.svg" alt="">
+            <img class="logo-sponsor" src="img/article/logo-cff-railway-overlay.svg" alt="">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div> -->
+        <header>
+            <div class="header__bg"></div>
+            <div class="header__gradient"></div>
+            <!-- <div class="video-wrapper">
+                <video playsinline autoplay loop muted>
+                  <source src="https://player.vimeo.com/external/272224606.hd.mp4?s=0767373c2b5d80d663ef69df7f25421cf400f1e7&profile_id=175" type="video/mp4"> 
+                  Votre navigateur ne supporte pas les vidéos HTML%.
+                </video>
+                </div> -->
+            <!-- <div class="smil-wrapper">
+                <div class="layer layer-bg"><img src="img/scene-intro-bg.svg" alt=""></div>
+                <div class="layer layer-clouds"><img src="quoi bon/scene-intro-clouds.svg" alt=""></div>
+                
+                <div class="layer layer-smoke1"><img src="img/scene-intro-smoke1.svg" alt=""></div>
+                <div class="layer layer-smoke2"><img src="img/scene-intro-smoke2.svg" alt=""></div>
+                <div class="layer layer-msc"><img src="img/scene-intro-msc.svg" alt=""></div>
+                <div class="layer layer-speedboat"><img src="img/scene-intro-speedboat.svg" alt=""></div>
+                <div class="layer layer-fishboat"><img src="img/scene-intro-fishboat.svg" alt=""></div>
+                </div> -->
+            <div class="header__content">
+                <div class="header__content__container">
+                    <div class="header__content__container__box">
+                        <h1>
+                            Les Montées<br> du plaisir <br><!-- <span></span> -->
+                        </h1>
+                        <!-- <img class="separateur" src="img/separateur.svg" alt=""> -->
+                        <h2 class="author">Un article de<span> François Busson</span></h2>
+                        <h2 class="social" >
+                            <a target="blank" href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fab fa-facebook-f"></i></a>
+                            <a target="blank" href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=letemps"><i class="fab fa-twitter fa-middle"></i></a>
+                            <a target="blank" href="mailto:?subject={{ title|url_encode }}&body={{ description|url_encode }}%0D%0A%0D%0A%0D%0A%0D%0A{{ app.url }}"><span class="brand-button"><i class="fas fa-envelope"></i></span></a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-indicator-inner"></div>
+            </div>
+            <div class="header-sponsor">
+                <!-- <a href="https://www.letemps.ch/partenariats" target="_blank"><span class="charte">[?]</span></a> -->
+                <a href="https://www.sbb.ch/fr/loisirs-et-vacances.html?tracking-marketingurl=loisirs" target="_blank"><img src="img/article/logo-cff-railway-neg.svg" alt=""></a> 
+                <span>Avec le soutien de </span>
+            </div>
+        </header>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small" style="padding-top: 40px; position: relative;">
+            <div class="layout">
+                <!-- <img class="zoom" src="img/article/map-top.svg"> -->
+                
+                <div class="caption">
+                    <b>NAVIGATION RAPIDE</b>, cliquez sur un sommet pour accéder à la section rapidement.
+                </div>
+            </div>
+        </section>
+        <section class="text" style="position: relative;">
+            <div class="container">
+                <h3>
+                    «Derrière l’arbre se cache la forêt», affirme le dicton populaire. C’est donc en délaissant les plus fameux sommets de l’Arc alpin helvétique que «L’illustré» est parti à la découverte d’éminences, d’arêtes, de pointes et de pitons, certes plus modestes, mais qui peuvent être facilement gravis en une petite journée de randonnée, quitte à se faire aider ici ou là par une remontée mécanique idéalement située. Préservation de la planète (et de ses sommets!) oblige, le départ (et l’arrivée) de toutes ces escapades bucoliques est aisément accessible par les transports en commun.
+                    <hr>
+                </h3>
+                <div class="spacer-small"></div>
+                <div class="spacer-small"></div>
+                <h4>
+                    Texte: François Busson<br>
+                    <span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Cartes: Manuel Forney<br>
+                    <span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Format Web: César Greppin
+                </h4>
+            </div>
+        </section>
+
+        <section class="padding-bottom"> 
+            <div class="container">
+                <div class="city lisbonne">
+                    <div class="city-overlay"></div>
+                    <span class="city-title">Lisbonne</span>
+                    <ul class="city-list">
+                        <li>• On s'y barre vraiment à donf</li>
+                        <li>• Il y a genre plein de trucs à faire</li>
+                        <li>• Mais attention, j'espères que vous aimez les morues</li>
+                        <li>
+                            <button>Découvrir</button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+       
+                </script>
+
+       <!--  <section class="flightmap">
+            <div class="map-container">
+                
+            </div>
+            <div class="side-container is-visible">
+                
+            </div>
+            
+        </section> -->
+
+
+        <section class="encart padding-bottom odd">
+            <div class="sponsor-bar">
+                <div class="sponsor-bar-container">
+                    <a href="https://www.sbb.ch/fr/loisirs-et-vacances.html?tracking-marketingurl=loisirs" target="_blank"><img src="img/article/logo-cff-railway.svg" alt=""></a>
+                    <span>Avec le soutien de </span>
+                </div>
+            </div>
+            <div class="spacer-small"></div>
+            <div class="spacer-small"></div>
+            <div class="spacer-small"></div>
+            <div class="spacer-small"></div>
+            <div class="container">
+                <h3 class="inter-titre title"><b>Connaissez-vous RailAway CFF ?</b></h3>
+                <h4>
+                   RailAway, la filiale loisirs des CFF, vous propose tout au long de l’année les meilleures offres pour vos prochaines escapades.<br><br>Voyager en train pour ses loisirs, c’est découvrir son pays tout en respectant l’environnement et en prenant du temps pour soi. À travers les fenêtres panoramiques des trains de plaine ou de montagne, laissez-vous surprendre par des paysages idylliques.
+                </h4>
+                <p>
+                    <b>Des excursions à petits prix</b><br>Profitez de votre abonnement pour les transports publics (abonnement général, demi-tarif, etc.), de billets dégriffés ou encore de cartes journalières dégriffées pour vos prochaines escapades. En voyageant en transports publics, avec le titre de transport de votre choix, vous bénéficiez de réductions sur diverses offres de loisirs en les achetant directement sur <b><a href="https://www.sbb.ch/fr/loisirs-et-vacances.html?tracking-marketingurl=loisirs" target="_blank">cff.ch/loisirs</a></b> ou au guichet de la gare.
+                </p>
+                <img src="img/article/gornergrat.jpg" alt="" style="margin-bottom: 15px;">
+                <p>
+                    <b>Notre top 3 de cet été – jusqu’à 30% de réduction</b><br>
+                   Pour les passionnés de nature, de nombreuses excursions en montagne sont disponibles avec <b>jusqu’à 30% de réduction</b> grâce à RailAway. Que diriez-vous d’une excursion ascensionnelle avec VerticAlp jusqu’au barrage d’Emosson ? Le Cervin, vous l’avez toujours vu en photo, mais jamais en réalité… alors direction le Gornergrat et son chemin des 5 lacs. Si célèbre à l’étranger mais encore peu connu par nous les romands, le Pilate est un incontournable avec son train à crémaillère le plus raide du monde.
+                </p>
+                <p>
+                    Découvrez tous les détails des offres RailAway à prix réduit sur <b><a href="https://www.sbb.ch/fr/freizeit-ferien/freizeitangebote/tagesausfluege/berge.html?tracking-marketingurl=sommets-reve" target="_blank">www.cff.ch/sommets-reve</a></b>. 
+                </p>
+
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OSVsiWB8Fp0' frameborder='0' allowfullscreen></iframe></div>
+                
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <!-- <section class="gallery small">
+            <div class="layout">
+            	<img class="zoom" src="img/lazy-placeholder.jpg">
+            	<div class="caption">
+            		<b>LES CLANDESTINS</b> ont souvent subi des situations de violence liées aux narcotrafiquants.
+            	</div>
+            </div>
+            </section> -->
+        <!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery hero">
+            <div class="layout">
+                <img class="zoom" src="img/article/header-chasseral.jpg">
+                <div class="caption">
+                    <b>COUCHER DE SOLEIL</b> depuis le sommet du Chasseral (photo : Martin Maegli/Suisse tourisme).</i>
+                </div>
+            </div>
+        </section>
+        <section class="anchor-chasseral">
+            <div class="container">
+                <h3 class="inter-titre title">De la combe à la crête<br><span style="font-size: 50%;">Le Chasseral (1600 m)</span></h3>
+                <p>
+                    Que ceux qui pensent que le Jura n’est constitué que de montagnes à vaches empoignent croquenots et knickerbockers pour se lancer à l’assaut du Chasseral, emblématique sommet du Jura bernois et prétexte agréable à la traversée d’une des plus sauvages réserves naturelles de Suisse. 
+                </p>
+                <p>
+                    Emotions garanties pour cette randonnée assez sportive mais pleine de charmes et de contrastes. Départ depuis Saint-Imier, cité de l’horlogerie et des énergies, par un petit chemin qui s’élève en pente douce jusqu’au pied de la Combe Grède. 
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/chasseral1.jpg">
+                <div class="caption">
+                    <b>LA CHAÎNE DU CHASSERAL</b> au soleil couchant (photo : Roland Gerth).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Au premier abord, cette falaise de calcaire couverte d’une végétation dense paraît infranchissable. Et le sentier qui emprunte le fond d’un ravin boisé ressemble plus au lit d’un torrent qu’à un chemin de randonnée. Mais en réalité, l’itinéraire – qui grimpe sec – est très bien aménagé et équipé d’échelles métalliques sur les sections les plus raides. 
+                </p>
+            </div>
+        </section>
+        <!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery double">
+            <div class="layout">
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/chasseral2.jpg">
+                    <div class="caption">
+                        <b>PREMIÈRES MARCHES</b> pour accéder à la Combe Grède (photo : Jura bernois tourisme).
+                    </div>
+                </div>
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/chasseral3.jpg">
+                    <div class="caption">
+                        <b>LES PASSAGES LES PLUS RAIDES</b> sont équipés d'échelles (photo : Jura bernois tourisme).
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Tôt le matin, vous aurez sans doute la chance d’apercevoir, à l’ombre de la futaie, l’une des 28 espèces d’oiseaux dénombrées dans la combe en 1988 par un chercheur de l’Université de Berne, voire un descendant de la harde de 25 chamois lâchés dans cette réserve naturelle dans les années 50. A moins qu’une marmotte ne vous siffle au passage du Pré aux Auges.
+                </p>
+            </div>
+        </section>
+        <!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery double">
+            <div class="layout">
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/chasseral4.jpg">
+                    <div class="caption">
+                        <b>UN CHAMOIS</b> dans la Combe Grède (photo : Beat App).
+                    </div>
+                </div>
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/chasseral6b.jpg">
+                    <div class="caption">
+                        <b>LE SABOT DE VÉNUS</b> une des nombreuses variétés d’orchidées présentes sur le Chasseral (photo : Anatole Gerner).
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Le signal pour un changement de décor complet, la hêtraie-sapinière laissant la place à de verts pâturages piquetés de chardons, de benoîtes des ruisseaux et de géraniums des bois. Les plus attentifs découvriront peut-être, le long de la large boucle menant au sommet dénudé du Chasseral, une des vingt variétés d’orchidées recensées dans ces pâturages. Les assoiffés, eux, pourront faire le plein à la métairie de Morat avant d’aborder la dernière petite grimpette du jour. 
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small">
+            <div class="layout">
+                <img class="zoom" src="img/article/chasseral5.jpg">
+                <div class="caption">
+                    <b>LE RELAIS TÉLÉ</b> au sommet du Chasseral (photo : Gerry Nitsch).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Car arrivé au sommet du Chasseral, qui dévoile par temps clair un panorama somptueux sur le plateau de Diesse, le Plateau suisse, les Trois-Lacs et la chaîne des Alpes, vous n’aurez plus que de la descente: d’abord vers la métairie Frienisberg pour ceux qui auraient oublié leur pique-nique, ensuite vers Nods par un agréable sentier à travers les pâturages. 
+                </p>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre">Aspects pratiques</h3>
+                <div class="box-wrapper">
+                    <div class="box-wrapper--box" >
+                        <div class="box-wrapper--box--container" data-balloon="Longueur de la marche" data-balloon-pos="up">
+                            <img src="img/article/distance.svg" alt="" class="picto">
+                            <span class="text">14 km</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé positif" data-balloon-pos="up">
+                            <img src="img/article/up.svg" alt="" class="picto">
+                            <span class="text">900 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé négatif" data-balloon-pos="up">
+                            <img src="img/article/down.svg" alt="" class="picto">
+                            <span class="text">820 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Durée de la marche" data-balloon-pos="up">
+                            <img src="img/article/time.svg" alt="" class="picto">
+                            <span class="text">4h45</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès</h3>
+                <br>
+                <p>
+                    Aller: train CFF jusqu’à Saint-Imier via Neuchâtel et La Chaux-de-Fonds (1 h 45 depuis Lausanne).<br>Retour: car postal Nods-Le Landeron, puis train CFF (environ 2 h jusqu’à Lausanne).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès alternatif</h3>
+                <br>
+                <p>
+                    Monter au Chasseral depuis Nods (3 h 50 en passant par la métairie du Bois Raigel).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">A ne pas manquer une fois sur place</h3>
+                <br>
+                <p>
+                    Le Musée Longines à Saint-Imier: entièrement rénové en 2017, il présente de manière très vivante une des plus belles épopées de l’horlogerie suisse (www.longines.com).
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/chasseralmusee.jpg">
+                <div class="caption">
+                    <b>LE MUSÉE LONGINES</b> à Saint-Imier (photo : Longines)
+                </div>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Pour se restaurer</h3>
+                <br>
+                <p>
+                    La métairie de Dombresson, Frienisberg: une authentique auberge d’alpage avec pain, cochonnailles et fondue maison, recommandée par Claude Frôté, le chef du Bocca à Saint-Blaise (à 15 minutes à pied du sommet du Chasseral, tél. 032 751 20 10). 
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/chasseralresto.jpg">
+                <div class="caption">
+                    <b>LA MÉTAIRIE</b> de Dombresson (photo : DR).
+                </div>
+            </div>
+        </section>
+        <section class="odd padding-bottom">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Renseignements</h3>
+                <br>
+                <p>
+                    Jura Bernois Tourisme, 032 494 53 43, www.jurabernois.ch
+                </p>
+            </div>
+        </section>
+        <!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery hero">
+            <div class="layout">
+                <img class="zoom" src="img/article/header-glacier3000.jpg">
+                <div class="caption">
+                    <b>LE PEAK WALK ET LE SOMMET DU SCEX ROUGE</b> (photo Glacier 3000).
+                </div>
+            </div>
+        </section>
+        <section class="anchor-glacier3000">
+            <div class="container">
+                <h3 class="inter-titre title">Nostalgie hivernale<br><span style="font-size: 50%">Glacier 3000 (3000 m)</span></h3>
+                <p>
+                    Il est des étés plus longs, plus chauds, presque ennuyeux qui en arriveraient à vous faire regretter neige et froidure hivernale. C’est alors le moment de prendre de la hauteur sur l’un des plus beaux glaciers de Suisse.
+                </p>
+                <p>
+                    Voici encore une proposition de randonnée à géométrie variable: lorsque le téléphérique qui relie le col du Pillon à Glacier 3000 vous aura déposé en quinze minutes chrono sur ce paradis des neiges éternelles (quoique, avec le réchauffement climatique…), trois possibilités s’offrent à vous.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big ">
+            <div class="layout">
+                <img class="zoom" src="img/article/glacier30001.jpg">
+                <div class="caption">
+                    <b>SELFIE D'AMOUREUX</b> sur le Peak Walk (photo Glacier 3000).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Les flemmards se contenteront d’un grand bol d’air pur en descendant de leur cabine au Scex Rouge, la station sommitale du téléphérique, pour un aller-retour aussi court qu’impressionnant sur Peak Walk, la fameuse passerelle de 107 mètres de long d’où l’on peut apercevoir, par beau temps, le Cervin, l’Eiger, le Mönch, la Jungfrau et même le Mont-Blanc. Frissons garantis avant de retourner boire un chocolat chaud au Restaurant Botta.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small ">
+            <div class="layout">
+                <img class="zoom" src="img/article/glacier30002.jpg">
+                <div class="caption">
+                    <b>BALADE AU DÔME</b> depuis l’arrivée du téléphérique (photo Glacier 3000).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Les familles opteront pour une balade au Dôme Hike: toujours depuis le Scex Rouge, on peut le rejoindre à 3016 mètres d’altitude par un large sentier bordé de pierres et de rochers en deux heures aller-retour. La récompense au sommet du dôme? Un panorama à couper le souffle sur le glacier, les vallées et sommets environnants. 
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small ">
+            <div class="layout">
+                <img class="zoom" src="img/article/glacier30003.jpg">
+                <div class="caption">
+                    <b>L'ARRIVÉE AU LAC DE SANETSCH</b> (photo Glacier 3000).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Les vrais montagnards, eux, opteront pour la superbe randonnée qui traverse le glacier jusqu’à la Quille du Diable (halte obligatoire au refuge L’Espace, le plus spectaculaire bistro des Alpes) par une piste balisée pratiquement plane avant de redescendre en douceur sur le lac et barrage de Sanetsch, sur un chemin de randonnée aisément praticable à travers les lapiaz de Tsanfleuron via une halte méritée à la cabane de Prarochet. Cinq heures d’effort à travers de magnifiques paysages de glace, de roches et d’eau. Et si vous n’en avez pas eu pour votre argent, vous pouvez redescendre à Gstaad à pied par un sentier muletier au lieu d’emprunter le si tentant mini-téléphérique...
+                </p>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre">Aspects pratiques</h3>
+                <div class="box-wrapper">
+                    <div class="box-wrapper--box" >
+                        <div class="box-wrapper--box--container" data-balloon="Longueur de la marche" data-balloon-pos="up">
+                            <img src="img/article/distance.svg" alt="" class="picto">
+                            <span class="text">200 m - 13 km</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé positif" data-balloon-pos="up">
+                            <img src="img/article/up.svg" alt="" class="picto">
+                            <span class="text">Variable</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé négatif" data-balloon-pos="up">
+                            <img src="img/article/down.svg" alt="" class="picto">
+                            <span class="text">Variable</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Durée de la marche" data-balloon-pos="up">
+                            <img src="img/article/time.svg" alt="" class="picto">
+                            <span class="text">15 min - 5h30</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès</h3>
+                <br>
+                <p>
+                    Train jusqu’aux Diablerets via Aigle, puis en car postal jusqu’au col du Pillon (environ 2 h depuis Lausanne). En voyageant en transports publics, 10% de réduction sur l’aller-retour en téléphérique col du Pillon-Scex Rouge (détails sur l’offre www.cff.ch/glacier3000).
+                </p>
+                {# 
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès alternatif</h3>
+                <br>
+                <p>
+                    Par le téléphérique Riddes-Isérables.
+                </p>
+                #}
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">A ne pas manquer une fois sur place</h3>
+                <br>
+                <p>
+                    La descente en Alpine Coaster: la piste de luge la plus haute du monde, d'une longueur d'un kilomètre avec un carrousel à 520°, 10 virages plus ou moins raides, 6 vagues, 3 sauts et une vitesse maximale de 40 km/h. 
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/glacier3000luge.jpg">
+                <div class="caption">
+                    <b>FRISSONS GARANTIS</b> sur l’Alpine Coaster (photo Glacier 3000) 
+                </div>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Pour se restaurer</h3>
+                <br>
+                <p>
+                    Restaurant Botta: une architecture de prestige au cœur d’un panorama unique (tél. 024 492 09 31).
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/glacier3000resto.jpg">
+                <div class="caption">
+                    <b>VUE PANORAMIQUE</b> depuis le restaurant Botta.
+                </div>
+            </div>
+        </section>
+        <section class="odd padding-bottom">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Renseignements</h3>
+                <br>
+                <p>
+                    Glacier 3000, tél. 024 492 33 77, www.glacier3000.ch 
+                </p>
+            </div>
+        </section>
+        <!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery hero">
+            <div class="layout">
+                <img class="zoom" src="img/article/header-dentdenendaz.jpg">
+                <div class="caption">
+                    <b>VUE SUR LA VALLÉE DU RHONE</b>, depuis le sommet de la Dent de Nendaz (photo : Jean Cingria).
+                </div>
+            </div>
+        </section>
+        <section class="anchor-nendaz">
+            <div class="container">
+                <h3 class="inter-titre title">A la rencontre des vénérables<br><span style="font-size: 50%;">La Dent-de-Nendaz (2463 m)</span></h3>
+                <p>
+                    Objectif premier de cette randonnée modulable en fonction de la forme physique et de l’envie des participants: rendre une petite visite aux plus grands et plus vieux mélèzes d’Europe, sur l’alpe de Balavaux, entre Haute-Nendaz et Isérables.
+                </p>
+                <p>
+                    Ils sont plus de 250 à se dresser, hiératiques, sur le pâturage. Les mélèzes les plus jeunes ont deux ou trois siècles. Une broutille en comparaison avec les plus âgés, qui frôlent le millénaire! L’un d’entre eux, un vénérable solitaire, affiche un tour de taille de plus de 14 mètres; sept personnes se tenant par la main peinent à enserrer le tronc! Et à l’automne, lorsque tous revêtent leurs habits de lumière, la forêt semble en feu…
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/dentdenendaz2.jpg">
+                <div class="caption">
+                    <b>AU-DESSUS D'ISÉRABLES,</b> une petite route permet d’accéder en vélo aux érables centenaires (photo : François Busson).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Pour les admirer, les plus courageux se rendront à Balavaux à pied depuis Haute-Nendaz, ce qui ajoute 2 h de marche et un dénivelé de 800 m à l’option moyenne présentée sur la fiche pratique ci-dessous. Les plus flemmards, eux, emprunteront la télécabine jusqu’à Tracouet et feront l’impasse sur la montée à la Dent-de-Nendaz (dommage, le panorama depuis le sommet est exceptionnel!) pour aller directement se goberger à la Cabane de Balavaux en admirant les mélèzes depuis la terrasse. 
+                </p>
+            </div>
+        </section>
+        <!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery double">
+            <div class="layout">
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/dentdenendaz3.jpg">
+                    <div class="caption">
+                        <b>DESCENTE SUR BALAVAUX</b> (photo : Jean Cingria).
+                    </div>
+                </div>
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/dentdenendaz4.jpg">
+                    <div class="caption">
+                        <b>LES REINES DE L'ALPAGE</b> de Balavaux (photo : Arnaud Delhez).
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Mais tout ce petit monde devra impérativement se retrouver pour la descente vers Haute-Nendaz qui longe en partie le bisse de Saxon. Surnommé «le roi des bisses», l’ouvrage – entamé en 1865 et mis en eau dix ans plus tard – est le plus long du Valais: 32 kilomètres. Abandonné en 1964, il a été en partie réhabilité à l’aube de ce millénaire. 
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small">
+            <div class="layout">
+                <img class="zoom" src="img/article/dentdenendaz5.jpg">
+                <div class="caption">
+                    <b>PASSAGE EN FORÊT</b> du bisse de Saxon (photo : Yvette Martignoni).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    En fin de parcours, depuis Pra da Dzeu, les randonneurs ont de nouveau deux possibilités: soit couper à travers Pra da Dzeu et descendre directement dans la forêt par Ouché, soit continuer un bout sur le bisse de Saxon, traverser le pierrier de Dzerjonna, aller jusqu’à Sofleu et redescendre sur Haute-Nendaz. C’est un peu plus raide mais très joli.
+                </p>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre">Aspects pratiques</h3>
+                <div class="box-wrapper">
+                    <div class="box-wrapper--box" >
+                        <div class="box-wrapper--box--container" data-balloon="Longueur de la marche" data-balloon-pos="up">
+                            <img src="img/article/distance.svg" alt="" class="picto">
+                            <span class="text">13 km</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé positif" data-balloon-pos="up">
+                            <img src="img/article/up.svg" alt="" class="picto">
+                            <span class="text">250 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé négatif" data-balloon-pos="up">
+                            <img src="img/article/down.svg" alt="" class="picto">
+                            <span class="text">1070 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Durée de la marche" data-balloon-pos="up">
+                            <img src="img/article/time.svg" alt="" class="picto">
+                            <span class="text">4h30</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès</h3>
+                <br>
+                <p>
+                    Train CFF jusqu’à Sion, puis bus postal jusqu’à Haute-Nendaz.
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès alternatif</h3>
+                <br>
+                <p>
+                    Par le téléphérique Riddes-Isérables.
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">A ne pas manquer une fois sur place</h3>
+                <br>
+                <p>
+                    Le SPA des Bisses : pour se remettre de ses efforts, 2 200 m2 d’installations intérieures et extérieures avec piscines, saunas, bains de vapeur et espace enfants (Tél. 027 611 11 30, www.hotelnendaz4vallees.ch/le-spa/le-spa-4-vallees
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/dentdenendazspa.jpg">
+                <div class="caption">
+                    <b>LE SAUNA DU SPA DES BISSES</b> (photo. DR).
+                </div>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Pour se restaurer</h3>
+                <br>
+                <p>
+                    Cabane de Balavaux : mets du terroir en terrasse au cœur de la forêt de mélèzes (tél. 027 289 52 90).
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/dentdenendazresto.jpg">
+                <div class="caption">
+                    <b>LA CABANE DE BALAVAUX</b> (photo. DR).
+                </div>
+            </div>
+        </section>
+        <section class="odd padding-bottom">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Renseignements</h3>
+                <br>
+                <p>
+                    OT Nendaz, tél. 027 289 55 89, www.nendaz.ch
+                </p>
+            </div>
+        </section>
+        
+        <!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery hero">
+            <div class="layout">
+                <img class="zoom" src="img/article/header-midi.jpg">
+                <div class="caption">
+                    <b>IMPRESSIONNANTE TRAVERSÉE</b> sur la Passerelle Belle-Etoile au-dessus du torrent de la Sauflaz (photo Niels Ebel).
+                </div>
+            </div>
+        </section>
+        <section class="anchor-midi">
+            <div class="container">
+                <h3 class="inter-titre title">La montagne à pleines dents<br><span style="font-size: 50%;">Les Dents-du-Midi (2095 m)</span></h3>
+                <p>
+                    Le tour des Dents-du-Midi, le pionnier des tours pédestres valaisans, est certainement l’un des plus beaux et des plus spectaculaires. Cet itinéraire, inauguré en 1972 et prétexte à un marathon couru pendant près de quarante ans, se boucle en deux jours minimum. Mais cette randonnée d’une journée au départ de Champéry, réservée aux bons marcheurs, devrait vous permettre de goûter à la magie de ce parcours de haute montagne.
+                </p>
+                <p>
+                    Il ne s’agit pas cette fois-ci de gravir un sommet, mais de longer les pentes abruptes de cette formidable barrière de calcaire sédimentaire de trois kilomètres de long, dont la Haute Cime culmine à 3257 mètres.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/midi1.jpg">
+                <div class="caption">
+                    <b>LES DENTS-DU-MIDI</b> avec leurs couches de calcaire de couleurs différentes (photo Niels Ebel).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Cette balade, qui demande un bel effort à travers forêts, alpages et éboulis ensoleillés (pour peu que vous ayez consulté la météo…), démarre au parking du Grand Paradis par un petit bout de route en direction de Barme avant d’emprunter un chemin pédestre menant au Roc Coupé. Ce dernier franchi, on rejoint la passerelle Belle-Etoile qui enjambe la Saufla pour prendre la direction de la cabane de Bonavau, que l’on délaisse un peu plus loin pour monter directement vers Susanfe. 
+                </p>
+            </div>
+        </section>
+        <!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery double">
+            <div class="layout">
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/midi2.jpg">
+                    <div class="caption">
+                        <b>AU COEUR DU ROC COUPÉ</b> (photo Niels Ebel).
+                    </div>
+                </div>
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/midi3.jpg">
+                    <div class="caption">
+                        <b>INAUGURATION DE LA PASSERELLE DE BELLE-ÉTOILE</b> par sa marraine Nicole Niquille (photo Niels Ebel).
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Le Pas d’Encel s’offre alors à vous, avec son sentier qui s’engage dans des gorges profondes et des pentes abruptes. Heureusement, des mains courantes facilitent le franchissement des passages délicats et permettent de gagner la retenue d’eau de Giétroz, puis la combe de Susanfe barrée au sud par le Mont-Ruan avec son glacier suspendu et la Tour Sallière.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/midi4.jpg">
+                <div class="caption">
+                    <b>LA CABANE DE SUSANFE</b> dans le vallon du même nom (photo Niels Ebel). 
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <!-- ENCART GAUCHE à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+                <div class="block-content right">
+                    <img class="zoom" src="img/article/midi5.jpg">
+                    <div class="caption"><b>LE REFUGE DE BONAVAU</b> sur les hauteurs de Champéry (photo Niels Ebel).</div>
+                </div>
+                <p>
+                    Si, en montagnard averti, vous êtes parti pour cette balade en début de matinée, ce devrait être l’heure d’une halte roborative à la cabane de Susanfe (tél. 024 479 16 46), réputée pour ses fondues. Pas envie de rentrer? Alors passez la nuit à la cabane pour vous attaquer le lendemain à l’ascension de la Haute Cime (3 h 30) qui vous nargue depuis la terrasse. Sinon, après un petit café, il est temps de regagner Champéry par un itinéraire alternatif via le refuge de Bonavau, la forêt du même nom, Les Clous, l’Auberge du Grand-Paradis et le chemin des Poussettes.
+                </p>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre">Aspects pratiques</h3>
+                <div class="box-wrapper">
+                    <div class="box-wrapper--box" >
+                        <div class="box-wrapper--box--container" data-balloon="Longueur de la marche" data-balloon-pos="up">
+                            <img src="img/article/distance.svg" alt="" class="picto">
+                            <span class="text">18.1 km</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé positif" data-balloon-pos="up">
+                            <img src="img/article/up.svg" alt="" class="picto">
+                            <span class="text">1300 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé négatif" data-balloon-pos="up">
+                            <img src="img/article/down.svg" alt="" class="picto">
+                            <span class="text">1300 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Durée de la marche" data-balloon-pos="up">
+                            <img src="img/article/time.svg" alt="" class="picto">
+                            <span class="text">7h09</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès</h3>
+                <br>
+                <p>
+                    Train jusqu’à Champéry via Aigle (environ 1 h 30 depuis Lausanne).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès alternatif</h3>
+                <br>
+                <p>
+                    Un itinéraire plus court supprime l’aller-retour à Susanfe via le Pas d’Encel. (www.cirkwi.com/fr/circuit/58972-grand-paradis-roc-coupe-rossetan-bonaveau).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">A ne pas manquer une fois sur place</h3>
+                <br>
+                <p>
+                    Les bains thermaux de Val-d’Illiez: le plein d’eau et de vapeur chaude pour éliminer crampes et courbatures.
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/midibains.png">
+                <div class="caption">
+                    <b>LES THERMES DE VAL d'ILLIEZ</b> (photo. DR).
+                </div>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Pour se restaurer</h3>
+                <br>
+                <p>
+                    Le Communal à Val-d’Illiez: café ou gastro, une table aux parfums d’Italie du GaultMillau (tél. 024 477 29 31, www.hotelcommunal.ch). 
+                </p>
+            </div>
+        </section>
+        <!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/midiresto.jpg">
+                <div class="caption">
+                    <b>RESTAURANT LE COMMUNAL</b> à Val d’Illiez (photo : François Busson).
+                </div>
+            </div>
+        </section>
+        <section class="odd padding-bottom">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Renseignements</h3>
+                <br>
+                <p>
+                    Région Dents-du-Midi (tél. 024 477 13 15, www.regiondentsdumidi.ch). Forfaits en liberté sur www.dentsdumidi.ch
+                </p>
+            </div>
+        </section>
+        <!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery hero">
+            <div class="layout">
+                <img class="zoom" src="img/article/header-gastlosen.jpg">
+                <div class="caption">
+                    <b>LA CHAÎNE DES GASTLOSEN</b> au soleil couchant (photo : Suisse Tourisme / Martin Maegli).</i>
+                </div>
+            </div>
+        </section>
+        <section class="anchor-gastlosen">
+            <div class="container">
+                <h3 class="inter-titre title">Bienvenue aux «Inhospitalières»<br><span style="font-size: 50%;">Les Gastlosen (1921 m)</span></h3>
+                <p>
+                    Le tour des Gastlosen (les «inhospitalières» en français), formidables dentelles de calcaire qui se dressent au sud de Jaun en formant une frontière entre les cantons de Fribourg et de Berne, offre une végétation et une richesse géologique que le randonneur trouvera rarement ailleurs dans les Préalpes. En prime, la vue sur les Alpes bernoises et les sommets des 4000 valaisans en toile de fond est grandiose.
+                </p>
+                <p>
+                    Au départ de Jaun, la seule commune germanophone de la Gruyère, le chemin de montagne suit un itinéraire somptueux entre 1500 et 1900 m d’altitude. Sans difficulté particulière, il peut très bien se parcourir avec des bambins d’une douzaine d’années qui aiment marcher. 
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/gastlosen1.jpg">
+                <div class="caption">
+                    <b>LA CASCADE E JAUN</b>, un lieu plein d’énergies vibratoires (photo : François Busson).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    En direction du Chalet du Soldat, il commence par surplomber de doux alpages et des forêts clairsemées, avant de déboucher sur un paysage de falaises calcaires très abruptes, dont certaines atteignent une hauteur de 300 m. C’est alors que le randonneur découvre le Stillwasserwald et sa végétation très variée.
+                </p>
+                <p>
+                    Au passage, on peut admirer le Grossmutterloch («trou de la grand-mère»), une ouverture béante dans la paroi de calcaire surnommée ainsi car on raconte que le diable, un jour de colère, aurait projeté sa grand-mère contre les Gastlosen, ce qui aurait créé cette fissure.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery big">
+            <div class="layout">
+                <img class="zoom" src="img/article/gastlosen2.jpg">
+                <div class="caption">
+                    <b>LE SOLEIL PERCE LE GROSSMUTTERLOCH</b> (photo : Nicolas Geinoz).
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p>
+                    Arrivé au Chalet du Soldat, véritable monument historique, la halte est quasi obligatoire. Construite en 1945, cette solide bâtisse de pierre et de bois était à l’origine un centre d’instruction du régiment de montagne 7. Elle accueille aujourd’hui sur sa superbe terrasse des montagnards autrement plus pacifiques, dont certains dorment sur place uniquement pour admirer à la nuit tombée les fantastiques couchers de soleil qui nimbent d’or et de rose les dentelles de calcaire. Mais la cuisine justifie également que l’on s’y arrête à la mi-journée…
+                </p>
+            </div>
+        </section>
+
+
+        <!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+        {# <section class="gallery double">
+            <div class="layout">
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/gastlosen4.jpg">
+                    <div class="caption">
+                        <b>LE CHALET DU SOLDAT</b> un poste d’observation privilégié sur les Gastlosen (photo : Claude-Olivier Marti).
+                    </div>
+                </div>
+                <div class="layout-inner">
+                    <img class="zoom" src="img/article/gastlosen3.jpg">
+                    <div class="caption">
+                        <b>LE CHALET DU SOLDAT</b> vu depuis le col du Loup (photo : Isabelle Jaccaud) (photo 5)
+                    </div>
+                </div>
+            </div>
+        </section> #}
+
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery small">
+			<div class="layout">
+				<img class="zoom" src="img/article/gastlosen4.jpg">
+				<div class="caption">
+					<b>LE CHALET DU SOLDAT</b> un poste d’observation privilégié sur les Gastlosen (photo : Claude-Olivier Marti).
+				</div>
+			</div>
+		</section>
+
+
+        <section>
+            <div class="container">
+                <p>
+                    Après un passage caillouteux, on atteint le col du Loup puis Wolfsort, soit, à 1921 m, le point culminant de la balade, et le passage du côté nord au côté sud de la chaîne. On traverse alors de nouveau des prairies alpines verdoyantes pour retrouver le point de départ après avoir dépassé l'Alp Grat et rejoint en contrebas la luxuriante forêt de Mattenwald. A noter que la balade peut également s'effectuer en sens inverse.
+                </p>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre">Aspects pratiques</h3>
+                <div class="box-wrapper">
+                    <div class="box-wrapper--box" >
+                        <div class="box-wrapper--box--container" data-balloon="Longueur de la marche" data-balloon-pos="up">
+                            <img src="img/article/distance.svg" alt="" class="picto">
+                            <span class="text">12 km</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé positif" data-balloon-pos="up">
+                            <img src="img/article/up.svg" alt="" class="picto">
+                            <span class="text">851 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Dénivellé négatif" data-balloon-pos="up">
+                            <img src="img/article/down.svg" alt="" class="picto">
+                            <span class="text">838 m</span>
+                        </div>
+                    </div>
+                    <div class="box-wrapper--box">
+                        <div class="box-wrapper--box--container" data-balloon="Durée de la marche" data-balloon-pos="up">
+                            <img src="img/article/time.svg" alt="" class="picto">
+                            <span class="text">5h00</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès</h3>
+                <br>
+                <p>
+                    En train et bus jusqu’à Bulle, puis bus postal jusqu’à Jaun/Bellegarde (arrêt Kappelboden, 2 h 17 depuis Lausanne).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Accès alternatif</h3>
+                <br>
+                <p>
+                    Avec des enfants qui n’aiment pas marcher, on peut se contenter de monter en télésiège, admirer la vue, et leur proposer de redescendre à trottinette (dès 12 ans).
+                </p>
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">A ne pas manquer une fois sur place</h3>
+                <br>
+                <p>
+                    La cascade et le cimetière de Jaun, dont toutes les tombes sont surmontées de croix en bois sculptées à la main avec un dorsal orné d’un bas-relief ouvragé évoquant la vie ou les activités de la personne défunte.
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/gastlosenjaun.jpg">
+                <div class="caption">
+                    <b>LES CROIX SCULPTÉES</b> du cimetière de Jaun (photo : François Busson).
+                </div>
+            </div>
+        </section>
+        <section class="odd">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Pour se restaurer</h3>
+                <br>
+                <p>
+                    La Pinte des Mossettes au-dessus du monastère de la Valsainte, avec la cuisine inspirée et généreuse de Romain Paillereau (16/20 au GaultMillau, tél. 026 927 20 97, www.lapintedesmossettes.ch).
+                </p>
+            </div>
+        </section>
+        <!-- GRANDE IMAGE ENTRE 2 PARAGRAPHES -->
+        <section class="gallery small odd">
+            <div class="layout">
+                <img class="zoom" src="img/article/gastlosenresto.jpg">
+                <div class="caption">
+                    <b>L'INTÉRIEUR COSY DE LA PINTE DES MOSSETTES</b> et son chef Romain Paillereau (photo : François Busson).
+                </div>
+            </div>
+        </section>
+        <section class="odd padding-bottom">
+            <div class="container">
+                <h3 class="inter-titre" style="font-size: 130%; margin-bottom: -20px;">Renseignements</h3>
+                <br>
+                <p>
+                    Fribourg Région (tél. 026 407 70 20, www.fribourgregion.ch).
+                </p>
+            </div>
+        </section>
+        <footer>
+            <!-- <hr class="end"> -->
+            <!-- <div class="container">
+                <h5>Nos grands formats</h5>
+                
+                <div class="row">
+                	<a href="https://labs.letemps.ch/interactive/2017/bol-dor-mirabaud-epopee-technologique/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb-boldor.jpg');"></div>
+                			<div class="caption">Le Bol d'Or, une épopée technologique</div>
+                		</div>
+                	</a>
+                
+                	<a href="https://labs.letemps.ch/interactive/2016/longread-parc-adula/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb_adula.jpg');"></div>
+                			<div class="caption">Parc Adula: Bataille dans la montagne</div>
+                		</div>
+                	</a>
+                </div>
+                
+                <div class="row">
+                <a href="https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb_fioul.jpg');"></div>
+                			<div class="caption">Fioul lourd, le sang impur de la globalisation</div>
+                		</div>
+                	</a>
+                
+                	<a href="https://labs.hebdo.ch/interactive/2016/longread-horlogerie-japonaise/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb-horlogerie-japonaise.jpg');"></div>
+                			<div class="caption">Horlogerie japonaise – A la conquête du monde</div>
+                		</div>
+                	</a>
+                </div>
+                
+                <div class="row">
+                	<a href="https://labs.letemps.ch/interactive/2016/longread-gothard/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb_gothard.jpg');"></div>
+                			<div class="caption">Les oubliés du Gothard</div>
+                		</div>
+                	</a>
+                	<a href="https://labs.letemps.ch/interactive/2016/tchernobyl-30-ans/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb-tchernobyl.jpg');"></div>
+                			<div class="caption">30 ans après, voyage au cœur de la zone </div>
+                		</div>
+                	</a>
+                </div>
+                
+                <div class="row">
+                	<a href="https://labs.letemps.ch/interactive/2016/shenzhen/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb_shenzhen.jpg');"></div>
+                			<div class="caption">Shenzhen, de la fumée des usines aux ateliers d'artistes</div>
+                		</div>
+                	</a>
+                	<a href="https://labs.letemps.ch/interactive/2016/montre-suisse/" target="blank" class="footer__link">
+                		<div class="teaser">
+                			<div class="teaser-bg" style="background: url('img/thumb-montre.jpg');"></div>
+                			<div class="caption">Comment j'ai fabriqué ma montre en 8 heures</div>
+                		</div>
+                	</a>
+                	
+                </div>
+                
+                </div> -->
+            <div class="credits">
+                Texte: François Busson<br>
+                Cartes: Manuel Forney<br>
+                Format Web: César Greppin
+            </div>
+        </footer>
+        {{ block('footer_brand') }}
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+        <script src="js/jquery.lazyload.js?v=1.9.7"></script>
+        <script src="js/intro-control.js"></script>
+        <script src="js/tilt.jquery.js"></script>
+        <script src="js/viewport.js"></script>
+        <script src="js/main.js"></script>
+       
+        <script src="js/zoom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+    </body>
+</html>
