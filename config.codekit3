@@ -1192,6 +1192,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/lity.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/lity-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/loader-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1589,6 +1599,17 @@
 		"iS": 3614,
 		"oA": 0,
 		"oAP": "/img/article/89430B0FCAFE2ABD.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/big-cm.png": {
+		"ft": 32768,
+		"iS": 1166786,
+		"oA": 0,
+		"oAP": "/img/article/big-cm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2041,6 +2062,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/article/logo-cm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/article/logo-cm.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/article/map-side.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2165,6 +2196,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/article/midiresto.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/nahum-frenck.jpg": {
+		"ft": 16384,
+		"iS": 261154,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/nahum-frenck.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2480,12 +2522,12 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
-	"/indexH.php": {
+	"/indexLT.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/indexH.php",
+		"oAP": "/indexLT.php",
 		"oF": 0
 		},
 	"/js/animation-charts-min.js": {
@@ -2686,6 +2728,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/lity.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/lity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/main-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2847,6 +2900,14 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/prod/.~lock.Nahum Text_CORR.docx#": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prod/.~lock.Nahum Text_CORR.docx#",
+		"oF": 0
 		},
 	"/prod/________trash/Intro - Chasseral.docx": {
 		"cB": 0,

@@ -1134,6 +1134,16 @@ footer {
     text-align: center; }
 
 /*Header, section, article, footer...*/
+.nahum {
+  max-width: 290px; }
+  @media (max-width: 768px) {
+    .nahum {
+      max-width: 100%; } }
+
+.city-section {
+  padding: 0;
+  overflow: hidden; }
+
 .city {
   position: relative;
   background: red;
@@ -1143,6 +1153,9 @@ footer {
   background-size: cover !important;
   background-position: center 10% !important;
   transform-style: preserve-3d; }
+  @media (max-width: 500px) {
+    .city {
+      padding: 20px; } }
   .city.lisbonne {
     background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/ga-header-lausanne.jpg"); }
   .city .city-overlay {
@@ -1162,11 +1175,19 @@ footer {
     margin-bottom: 20px;
     display: block;
     transform: translateZ(0px); }
+    @media (max-width: 500px) {
+      .city .city-title {
+        font-size: 32px;
+        margin-top: 10px; } }
   .city .city-list {
     color: white;
     font-family: "Montserrat";
     font-weight: 100;
     line-height: 30px; }
+    @media (max-width: 500px) {
+      .city .city-list {
+        font-size: 14px;
+        line-height: 25px; } }
 
 button {
   background: #ff4646;
