@@ -1845,6 +1845,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/article/espagne.jpg": {
+		"ft": 16384,
+		"iS": 102858,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/espagne.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/esprit.jpg": {
 		"ft": 16384,
 		"iS": 595557,
@@ -2010,6 +2021,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/article/grece.jpg": {
+		"ft": 16384,
+		"iS": 72969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/grece.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/header-chasseral.jpg": {
 		"ft": 16384,
 		"iS": 513592,
@@ -2168,6 +2190,28 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/article/maroc.jpg": {
+		"ft": 16384,
+		"iS": 102524,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/maroc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/maurice.jpg": {
+		"ft": 16384,
+		"iS": 97134,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/maurice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/midi1.jpg": {
 		"ft": 16384,
 		"iS": 246222,
@@ -2284,6 +2328,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/article/repas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/repdomi.jpg": {
+		"ft": 16384,
+		"iS": 125344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/repdomi.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2610,12 +2665,12 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
-	"/indexLT.php": {
+	"/indexH.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/indexLT.php",
+		"oAP": "/indexH.php",
 		"oF": 0
 		},
 	"/js/animation-charts-min.js": {
@@ -3039,7 +3094,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/prod/Les montées du plaisir_okVB.docx": {
+	"/prod/Les montées du plaisir_okVB.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -3207,6 +3262,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/prod/photoz-promoz.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prod/photoz-promoz.psd",
+		"oF": 0
 		},
 	"/prod/SBB_CFF_FFS_logo.svg": {
 		"ft": 2097152,
@@ -9834,7 +9897,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888/ill-longread-clubmed",
+	"externalServerAddress": "http://localhost:8080/ill-longread-clubmed",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

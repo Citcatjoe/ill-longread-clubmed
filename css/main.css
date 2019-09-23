@@ -1156,8 +1156,16 @@ footer {
   @media (max-width: 500px) {
     .city {
       padding: 20px; } }
-  .city.lisbonne {
-    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/ga-header-lausanne.jpg"); }
+  .city.city1 {
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/maroc.jpg"); }
+  .city.city2 {
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/repdomi.jpg"); }
+  .city.city3 {
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/grece.jpg"); }
+  .city.city4 {
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/espagne.jpg"); }
+  .city.city5 {
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/maurice.jpg"); }
   .city .city-overlay {
     position: absolute;
     height: 100%;
@@ -1170,19 +1178,23 @@ footer {
   .city .city-title {
     color: white;
     font-family: "Montserrat";
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
     display: block;
-    transform: translateZ(0px); }
+    transform: translateZ(0px);
+    line-height: 0.5em; }
     @media (max-width: 500px) {
       .city .city-title {
         font-size: 32px;
         margin-top: 10px; } }
+    .city .city-title span {
+      font-size: 50%;
+      font-weight: 400; }
   .city .city-list {
     color: white;
     font-family: "Montserrat";
-    font-weight: 100;
+    font-weight: 400;
     line-height: 30px; }
     @media (max-width: 500px) {
       .city .city-list {

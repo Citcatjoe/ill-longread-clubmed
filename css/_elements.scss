@@ -33,10 +33,38 @@
 
 
 
-    &.lisbonne
+    &.city1
     {
         background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
-          url('../img/article/ga-header-lausanne.jpg');
+          url('../img/article/maroc.jpg');
+                    ;
+    }
+
+    &.city2
+    {
+        background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
+          url('../img/article/repdomi.jpg');
+                    ;
+    }
+
+    &.city3
+    {
+        background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
+          url('../img/article/grece.jpg');
+                    ;
+    }
+
+    &.city4
+    {
+        background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
+          url('../img/article/espagne.jpg');
+                    ;
+    }
+
+    &.city5
+    {
+        background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
+          url('../img/article/maurice.jpg');
                     ;
     }
 
@@ -56,15 +84,22 @@
     {
         color: white;
         font-family: $font2;
-        font-size: 48px;
+        font-size: 40px;
         font-weight: 600;
         margin-bottom: 20px;
         display: block;
         transform: translateZ(0px);
+        line-height: 0.5em;
 
         @include breakpoint(xs) { 
              font-size: 32px;
              margin-top: 10px;
+        }
+
+        span 
+        {
+            font-size: 50%;
+            font-weight: 400;
         }
         
     }
@@ -73,7 +108,7 @@
     {
         color: white;
         font-family: $font2;
-        font-weight: 100;
+        font-weight: 400;
         line-height: 30px;
 
         @include breakpoint(xs) { 
