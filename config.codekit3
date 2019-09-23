@@ -1561,6 +1561,17 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/img/article/4espace1.jpg": {
+		"ft": 16384,
+		"iS": 358009,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/4espace1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/89430B0FCAFE2ABA.png": {
 		"ft": 32768,
 		"iS": 3614,
@@ -1715,6 +1726,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/article/co-construction.jpg": {
+		"ft": 16384,
+		"iS": 392002,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/co-construction.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/decouverte.jpg": {
+		"ft": 16384,
+		"iS": 243354,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/decouverte.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/dentdenendaz1.jpg": {
 		"ft": 16384,
 		"iS": 286525,
@@ -1811,6 +1844,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/article/esprit.jpg": {
+		"ft": 16384,
+		"iS": 595557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/esprit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/article/ga-header-lausanne.jpg": {
 		"ft": 16384,
@@ -2023,7 +2067,7 @@
 		},
 	"/img/article/header.jpg": {
 		"ft": 16384,
-		"iS": 597515,
+		"iS": 517943,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/article/header.jpg",
@@ -2071,6 +2115,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/article/lointain.jpg": {
+		"ft": 16384,
+		"iS": 273400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/lointain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/article/map-side.svg": {
 		"ft": 2097152,
@@ -2207,6 +2262,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/article/nahum-frenck.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/regles.jpg": {
+		"ft": 16384,
+		"iS": 374040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/regles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/repas.jpg": {
+		"ft": 16384,
+		"iS": 325420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/repas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/respect.jpg": {
+		"ft": 16384,
+		"iS": 307159,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/respect.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2901,14 +2989,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/prod/.~lock.Nahum Text_CORR.docx#": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/prod/.~lock.Nahum Text_CORR.docx#",
-		"oF": 0
-		},
 	"/prod/________trash/Intro - Chasseral.docx": {
 		"cB": 0,
 		"ft": 8192,
@@ -2959,7 +3039,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/prod/Les montées du plaisir_okVB.docx": {
+	"/prod/Les montées du plaisir_okVB.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -2991,6 +3071,138 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/prod/nahum-frenck.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/4espacebis.jpg": {
+		"ft": 16384,
+		"iS": 11784324,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/4espacebis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/4espaces.jpg": {
+		"ft": 16384,
+		"iS": 16447414,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/4espaces.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Ala_decouverte_des_enfants.jpg": {
+		"ft": 16384,
+		"iS": 7306521,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Ala_decouverte_des_enfants.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Co-construction.jpg": {
+		"ft": 16384,
+		"iS": 13598416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Co-construction.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Destination_lointaine.jpg": {
+		"ft": 16384,
+		"iS": 5613159,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Destination_lointaine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Esprit_libre(pasMarocouSicile).jpg": {
+		"ft": 16384,
+		"iS": 16482005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Esprit_libre(pasMarocouSicile).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Fixer_des_regles.jpg": {
+		"ft": 16384,
+		"iS": 19247389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Fixer_des_regles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/jpeg/4espaces2.jpg": {
+		"ft": 16384,
+		"iS": 712661,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/jpeg/4espaces2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Ouverture1.jpg": {
+		"ft": 16384,
+		"iS": 14461725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Ouverture1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/Ouverture_famille.jpg": {
+		"ft": 16384,
+		"iS": 9181026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/Ouverture_famille.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/repas_plaisir.jpg": {
+		"ft": 16384,
+		"iS": 17955087,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/repas_plaisir.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/prod/photos/respect.jpg": {
+		"ft": 16384,
+		"iS": 6595053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/prod/photos/respect.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3033,7 +3245,7 @@
 		"oAP": "/social.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/templates/_blocks.html.twig": {

@@ -1,5 +1,11 @@
 jQuery(document).ready(function($) 
 {
+
+
+	setTimeout(function() 
+	{
+		$('footer').nextAll('div').css('display', 'none');
+	}, 5000);
 	
 	LisbonneTL = new TimelineMax({ paused: true });
 
