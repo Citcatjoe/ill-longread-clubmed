@@ -63,7 +63,7 @@
 
     &.city5
     {
-        background: linear-gradient(51deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 70%),
+        background: linear-gradient(51deg, rgba(0,0,0,.8) 0%, rgba(0,0,0,0) 90%),
           url('../img/article/maurice.jpg');
                     ;
     }
@@ -92,8 +92,10 @@
         line-height: 0.5em;
 
         @include breakpoint(xs) { 
-             font-size: 32px;
+             font-size: 22px;
+             line-height: 0.9em;
              margin-top: 10px;
+             margin-bottom: 15px;
         }
 
         span 
@@ -112,8 +114,10 @@
         line-height: 30px;
 
         @include breakpoint(xs) { 
-             font-size: 14px;
+             font-size: 12px;
              line-height: 25px;
+
+             li { margin-bottom: 7px}
         }
 
     }

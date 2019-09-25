@@ -572,8 +572,12 @@ header {
     height: 100%;
     background: red;
     background: url("../img/article/header.jpg");
-    background-position: center bottom;
+    background-position: center center;
     background-size: cover; }
+    @media (max-width: 500px) {
+      header .header__bg {
+        background: url("../img/article/header-mobile.jpg");
+        background-position: center center !important; } }
   header .header__gradient {
     position: absolute;
     width: 100%;
@@ -975,9 +979,9 @@ section {
     section.encart .container {
       width: 90%;
       max-width: 1120px;
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      column-count: 3;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
       -webkit-column-gap: 60px;
       /* Chrome, Safari, Opera */
       -moz-column-gap: 60px;
@@ -1165,7 +1169,7 @@ footer {
   .city.city4 {
     background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/espagne.jpg"); }
   .city.city5 {
-    background: linear-gradient(51deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%), url("../img/article/maurice.jpg"); }
+    background: linear-gradient(51deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 90%), url("../img/article/maurice.jpg"); }
   .city .city-overlay {
     position: absolute;
     height: 100%;
@@ -1186,8 +1190,10 @@ footer {
     line-height: 0.5em; }
     @media (max-width: 500px) {
       .city .city-title {
-        font-size: 32px;
-        margin-top: 10px; } }
+        font-size: 22px;
+        line-height: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 15px; } }
     .city .city-title span {
       font-size: 50%;
       font-weight: 400; }
@@ -1198,8 +1204,10 @@ footer {
     line-height: 30px; }
     @media (max-width: 500px) {
       .city .city-list {
-        font-size: 14px;
-        line-height: 25px; } }
+        font-size: 12px;
+        line-height: 25px; }
+        .city .city-list li {
+          margin-bottom: 7px; } }
 
 button {
   background: #ff4646;
