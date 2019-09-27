@@ -2120,6 +2120,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/article/image042.jpg": {
+		"ft": 16384,
+		"iS": 724202,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/image042.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/logo-cff-railway-neg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2695,6 +2706,14 @@
 		"oAP": "/indexH.php",
 		"oF": 0
 		},
+	"/indexLT.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/indexLT.php",
+		"oF": 0
+		},
 	"/js/animation-charts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -3065,6 +3084,14 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/prod/.~lock.Nahum Text_CORR.docx#": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prod/.~lock.Nahum Text_CORR.docx#",
+		"oF": 0
 		},
 	"/prod/________trash/Intro - Chasseral.docx": {
 		"cB": 0,
